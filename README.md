@@ -84,3 +84,21 @@ Spam
 Enter a message (or type exit): Hey, I will reach college in 10 minutes
 Not Spam
 ```
+
+## Future Improvements
+
+- Add a web-based interface using Flask or Streamlit for easier interaction.
+- Improve model performance using advanced NLP techniques like TF-IDF tuning or word embeddings.
+- Support batch classification of multiple SMS messages from a file.
+- Save and load the trained model to avoid retraining every time.
+- Extend the classifier to detect other message categories such as promotions or phishing.
+
+
+## Project Structure
+```
+Spam-message-classifier/
+├── spam_classifier.py      # Main Python script
+├── requirements.txt        # Python dependencies
+├── SMSSpamCollection       # Dataset file
+└── README.md               # Project documentationSpam-message-classifier/
+```
