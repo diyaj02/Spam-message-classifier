@@ -51,3 +51,36 @@ spam-classifier/
 ├── requirements.txt          # Python dependencies
 └── README.md                 # Project documentation
 ```
+
+## How to Run
+1. Clone the repository
+```bash
+git clone https://github.com/diyaj02/Spam-message-classifier.git
+cd Spam-message-classifier  
+```
+
+2. Install dependencies 
+
+pip install -r requirements.txt
+
+3. Run the program
+
+python spam_classifier.py
+
+4. Enter an SMS message when prompted to classify it as Spam or Not Spam. 
+
+
+## Results
+
+- The model achieves an accuracy of approximately **98.8%** on the test dataset.
+- It successfully classifies unseen SMS messages as **Spam** or **Not Spam**.
+
+## Example Output
+
+```
+Enter a message (or type exit): WINNER! You have won a free recharge. Call now
+Spam
+
+Enter a message (or type exit): Hey, I will reach college in 10 minutes
+Not Spam
+```
