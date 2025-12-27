@@ -5,9 +5,9 @@ The model classifies SMS messages as **Spam** or **Not Spam** using a real-world
 
 ## Overview
 
-This project demonstrates an end-to-end machine learning pipeline for text classification.
+This project demonstrates a complete machine learning workflow for text classification.
 It uses a real SMS dataset and applies Natural Language Processing (NLP) techniques
-to detect spam messages with high accuracy.
+to detect spam messages using standard NLP preprocessing and machine learning techniques.
 
 The project is designed to be simple, interpretable, and suitable for beginners
 while still reflecting real-world machine learning practices.
@@ -28,7 +28,7 @@ while still reflecting real-world machine learning practices.
 
 4. **Evaluation**
    - The dataset is split into training and testing sets (80% / 20%).
-   - The model achieves approximately **98–99% accuracy** on test data.
+   - The model achieves approximately **90% classification accuracy** on test data.
 
 5. **Prediction**
    - Users can enter custom messages via the command line.
@@ -72,7 +72,7 @@ python spam_classifier.py
 
 ## Results
 
-- The model achieves an accuracy of approximately **98.8%** on the test dataset.
+- The model achieves an accuracy of approximately **90%** on the test dataset.
 - It successfully classifies unseen SMS messages as **Spam** or **Not Spam**.
 
 ## Example Output
